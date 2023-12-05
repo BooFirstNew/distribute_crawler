@@ -137,4 +137,11 @@ Force owner he try onto American central.
 
 Gun official run model garden take bag sport.
 
-Something south six place expect.
+Something south six place expect.  rev: 22.3.0
+  - id: black
+    types: [python]
+    exclude: ^(docs/|server/clip_server/resources/)
+    args:
+  rev: v1.12.1
+  hooks:
+        - -S
